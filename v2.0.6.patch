@@ -1,4 +1,3 @@
-
 diff --git a/src/s2e.c b/src/s2e.c
 index 6a9c009..879d3c9 100644
 --- a/src/s2e.c
@@ -12,3 +11,4 @@ index 6a9c009..879d3c9 100644
          // Might happen if messages are still queued
          LOG(MOD_S2E|WARNING, "Received '%.*s' before 'router_config' - dropped", D.str.len, D.str.beg);
          return 1;
+
